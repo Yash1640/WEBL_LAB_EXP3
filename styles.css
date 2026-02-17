@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header {
+    background: #667eea;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    padding: 30px;
+    gap: 25px;
+}
+
+.profile-section {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.info-section {
+    flex: 2;
+}
+
+.info-card {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #667eea;
+}
+
+.info-card h4 {
+    color: #667eea;
+    margin-bottom: 5px;
+}
+
+.social-section {
+    background: #667eea;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+}
+
+.dom-section {
+    padding: 20px 30px;
+    border-top: 1px solid #eee;
+}
+
+.dom-section h3 {
+    color: #667eea;
+    margin-bottom: 10px;
+}
+
+.dom-section ol {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+.btn-toggle,
+.btn-add,
+.btn-remove,
+.theme-btn {
+    padding: 6px 14px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-toggle, .btn-add {
+    background: #667eea;
+}
+
+.btn-remove {
+    background: #e06666;
+}
+
+.btn-toggle {
+    margin-top: 8px;
+}

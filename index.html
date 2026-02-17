@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yash - Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Yash Rai</h1>
+            <h2>Aspiring Software Engineer</h2>
+            <p>Building innovative solutions for tomorrow's challenges</p>
+        </header>
+        
+        <div class="content-wrapper">
+            <div class="profile-section">
+                <img src="./image.jpg" alt="Profile Photo" class="profile-photo">
+            </div>
+            
+            <div class="info-section">
+                <div class="info-card">
+                    <h4>Profile</h4>
+                    <p id="bio-text">I am a highly motivated and detail-oriented individual with a strong passion for software engineering.</p>
+                    <button class="btn-toggle" onclick="toggleBio()">Read More</button>
+                </div>
+                
+                <div class="info-card">
+                    <h4>Hobbies</h4>
+                    <p>Coding, Reading technical blogs, and learning new programming languages.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4>Passion</h4>
+                    <p>I am passionate about Artificial Intelligence and how it can improve human efficiency.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4>Past Work</h4>
+                    <p>Created basic web layouts using HTML and CSS, and explored JavaScript fundamentals.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4>Social Life</h4>
+                    <p>Active in tech communities, enjoy collaborating with fellow developers, and participate in coding meetups and hackathons to stay connected with the industry.</p>
+                </div>
+            </div>
+        </div>
+        
+        <section class="dom-section">
+            <h3>Skills</h3>
+            <input type="text" id="skill-input" placeholder="Enter a skill...">
+            <button class="btn-add" onclick="addSkill()">Add</button>
+            <button class="btn-remove" onclick="removeSkill()">Remove Last</button>
+            <ol id="list">
+                <li>Graphic Design</li>
+                <li>Web Development</li>
+            </ol>
+        </section>
+
+        <section class="dom-section">
+            <h3>Background Color</h3>
+            <button class="theme-btn" style="background-color: #e06666;" onclick="changeBg('#e06666')">Red</button>
+            <button class="theme-btn" style="background-color: #54a0ff;" onclick="changeBg('#54a0ff')">Blue</button>
+            <button class="theme-btn" style="background-color: #1dd1a1;" onclick="changeBg('#1dd1a1')">Green</button>
+            <button class="theme-btn" style="background-color: #fdfa72;" onclick="changeBg('#fdfa72')">Yellow</button>
+        </section>
+
+        <div class="social-section">
+            <h3>Social Links</h3>
+            <div class="social-links">
+                <a href="https://github.com/Yash1640" class="social-link" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" class="social-link" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
